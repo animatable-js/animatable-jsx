@@ -1,0 +1,21 @@
+{
+    "scripts": {
+        "build": "webpack build",
+        "watch": "webpack build --watch",
+        "serve": "webpack serve --hot"
+    },
+    "dependencies": {
+        "animatable-js": "^1.2.27",
+        "animatable-jsx": "file:..",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "html-inline-webpack-plugin": "^1.0.0-beta7",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.5.4",
+        "webpack": "^5.94.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    }
+}

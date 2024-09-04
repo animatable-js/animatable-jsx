@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
+        "strict": true,
         "module": "ES2022",
         "target": "ES2015",
-        "declaration": true,
-        "declarationDir": "dist/types/",
         "moduleResolution": "Node",
         "jsx": "react-jsx",
+        "jsxImportSource": "react"
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]

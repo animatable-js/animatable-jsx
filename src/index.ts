@@ -1,1 +1,1 @@
-export {}
+export { useAnimation } from "./hooks/useAnimation";

@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("animatable-js"),require("react")):"function"==typeof define&&define.amd?define(["exports","animatable-js","react"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).TouchRipple={},e.animatableJs,e.react)}(this,(function(e,t,n){"use strict";e.useAnimation=function(e,i,a){const o=n.useRef(new t.Animation(e,i,a)).current,[s,u]=n.useState(o.value);return n.useEffect((()=>(o.addListener(u),()=>o.dispose())),[]),[s,o]}}));
+//# sourceMappingURL=index.umd.js.map
