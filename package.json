@@ -1,0 +1,25 @@
+{
+    "name": "none",
+    "version": "1.0.0",
+    "description": "none",
+    "repository": "none",
+    "bugs": "none",
+    "author": "Dev Ttangkong",
+    "license": "MIT",
+    "main": "./dist/index.umd.js",
+    "module": "./dist/index.esm.js",
+    "types": "./dist/types/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "rollup -c -w"
+    },
+    "keywords": ["web"],
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^4.13.0",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "terser": "^5.29.2",
+        "typescript": "^5.4.2"
+    }
+}

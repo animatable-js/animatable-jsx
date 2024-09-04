@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "ES2022",
+        "target": "ES2015",
+        "declaration": true,
+        "declarationDir": "dist/types/"
+    },
+    "include": ["src/"]
+}
