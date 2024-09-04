@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/735a0e20-0c8f-40b5-b65f-fd99f5e6d101">
-  <h1>Web Packages</h1>
+  <img width="200px" src="https://github.com/user-attachments/assets/ccc4a353-7903-4a49-a92d-26b6dfa1d200">
+  <h1>Animatable JSX Package</h1>
 </div>
 
-This template provides min-settings of the development environment that makes up web packages.
+# Introduction
+This extension package of [animatable-js](https://github.com/animatable-js/animatable_js) allows for easy and lightweight implementation of linear or curved animations in a JSX/TSX environment.
