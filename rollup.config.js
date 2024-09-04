@@ -1,6 +1,5 @@
 import typescript from "rollup-plugin-typescript2";
 import terser from "@rollup/plugin-terser";
-import { externals } from "./test/webpack.config.cjs";
 
 const plugins = [
     typescript({
