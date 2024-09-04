@@ -1,6 +1,14 @@
 <div align="center">
   <img width="200px" src="https://github.com/user-attachments/assets/ccc4a353-7903-4a49-a92d-26b6dfa1d200">
   <h1>Animatable JSX Package</h1>
+  <table>
+        <thead>
+          <tr>
+            <th>Version</th>
+            <th>v1.0.0-dev</th>
+          </tr>
+        </tbody>
+    </table>
 </div>
 
 # Introduction
