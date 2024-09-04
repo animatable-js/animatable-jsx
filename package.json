@@ -1,6 +1,6 @@
 {
     "name": "animatable-jsx",
-    "version": "1.0.0",
+    "version": "1.0.0-alpha1",
     "description": "This extension package of animatable-js allows for easy and lightweight implementation of linear or curved animations in a JSX/TSX environment.",
     "repository": "https://github.com/animatable-js/animatable_jsx",
     "bugs": "https://github.com/animatable-js/animatable_jsx/issues",
