@@ -20,7 +20,7 @@ const globals = {
 export default {
     plugins: plugins,
     input: "src/index.ts",
-    external: ["react", "react-dom", "react/jsx-runtime", "animatable-js"],
+    external: ["react", "react-dom", "animatable-js"],
     output: [
         { file: "dist/index.esm.js", format: "esm", name: "TouchRipple", sourcemap: true },
         { file: "dist/index.umd.js", format: "umd", name: "TouchRipple", sourcemap: true, globals },

@@ -3,14 +3,10 @@ import { useAnimation } from "animatable-jsx";
 import { useEffect } from "react";
 
 export function Root() {
-    return (<Sub />);
-}
-
-export function Sub() {
     const [value, animation] = useAnimation(1000);
 
     useEffect(() => {
-        animation.animateTo(1);
+        // animation.animateTo(1);
     }, []);
 
     return (

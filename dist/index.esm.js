@@ -1,2 +1,2 @@
-import{Animation as r}from"animatable-js";import{useRef as e,useState as t,useEffect as n}from"react";function o(o,a,i){const m=e(new r(o,a,i)).current,[s,c]=t(m.value);return n((()=>(m.addListener(c),()=>m.dispose())),[]),[s,m]}export{o as useAnimation};
+import{Animation as e,AnimationController as r}from"animatable-js";import{useRef as n,useState as t,useEffect as o}from"react";function i(r,i,s){const a=n(new e(r,i,s)).current,[u,c]=t(a.value);return o((()=>(a.addListener(c),()=>a.dispose())),[]),[u,a]}function s(e,i,s,a){const u=n(new r(e,i,s,a)).current,[c,d]=t(u.value);return o((()=>(u.addListener(d),()=>u.dispose())),[]),[c,u]}export{i as useAnimation,s as useAnimationController};
 //# sourceMappingURL=index.esm.js.map

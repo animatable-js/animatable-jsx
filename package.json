@@ -28,11 +28,11 @@
         "client-side",
         "lightweight"
     ],
+    "resolutions": {},
     "devDependencies": {
         "@rollup/plugin-terser": "^0.4.4",
         "@types/react": "^18.3.5",
         "@types/react-dom": "^18.3.0",
-        "preact": "^10.23.2",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "rollup": "^4.13.0",
@@ -41,6 +41,9 @@
         "typescript": "^5.4.2"
     },
     "peerDependencies": {
-        "animatable-js": "^1.2.27"
+        "animatable-js": "^1.2.27",
+        "preact": "^10.23.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     }
 }

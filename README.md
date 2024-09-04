@@ -13,3 +13,12 @@
 
 # Introduction
 This extension package of [animatable-js](https://github.com/animatable-js/animatable_js) allows for easy and lightweight implementation of linear or curved animations in a JSX/TSX environment.
+
+## Install by NPM
+To install this package in your project, enter the following command.
+
+> When you want to update this package, enter `npm update animatable-jsx --save` in the terminal to run it.
+
+```
+npm install animatable-js, animatable-jsx
+```

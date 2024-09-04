@@ -11,6 +11,8 @@
         "react-dom": "^18.3.1"
     },
     "devDependencies": {
+        "@types/react": "^18.3.5",
+        "@types/react-dom": "^18.3.0",
         "html-inline-webpack-plugin": "^1.0.0-beta7",
         "ts-loader": "^9.5.1",
         "typescript": "^5.5.4",
