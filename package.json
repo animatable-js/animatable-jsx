@@ -1,9 +1,9 @@
 {
-    "name": "none",
+    "name": "animatable-jsx",
     "version": "1.0.0",
-    "description": "none",
-    "repository": "none",
-    "bugs": "none",
+    "description": "This extension package of animatable-js allows for easy and lightweight implementation of linear or curved animations in a JSX/TSX environment.",
+    "repository": "https://github.com/animatable-js/animatable_jsx",
+    "bugs": "https://github.com/animatable-js/animatable_jsx/issues",
     "author": "Dev Ttangkong",
     "license": "MIT",
     "main": "./dist/index.umd.js",
@@ -14,7 +14,20 @@
         "build": "rollup -c",
         "watch": "rollup -c -w"
     },
-    "keywords": ["web"],
+    "keywords": [
+        "animatable",
+        "animatable-js",
+        "animation",
+        "expansion",
+        "curved animation",
+        "canvas",
+        "canvas animation",
+        "jsx",
+        "jsx animation",
+        "front-end",
+        "client-side",
+        "lightweight"
+    ],
     "devDependencies": {
         "@rollup/plugin-terser": "^0.4.4",
         "rollup": "^4.13.0",
