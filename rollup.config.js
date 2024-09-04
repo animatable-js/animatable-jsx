@@ -1,5 +1,6 @@
 import typescript from "rollup-plugin-typescript2";
 import terser from "@rollup/plugin-terser";
+import { externals } from "./test/webpack.config.cjs";
 
 const plugins = [
     typescript({
@@ -18,11 +19,11 @@ const globals = {
 };
 
 export default {
-    plugins: plugins,
+    plugins,
     input: "src/index.ts",
     external: ["react", "react-dom", "animatable-js"],
     output: [
-        { file: "dist/index.esm.js", format: "esm", name: "TouchRipple", sourcemap: true },
-        { file: "dist/index.umd.js", format: "umd", name: "TouchRipple", sourcemap: true, globals },
+        { file: "dist/index.esm.js", format: "esm", name: "AnimatableJSX", sourcemap: true },
+        { file: "dist/index.umd.js", format: "umd", name: "AnimatableJSX", sourcemap: true, globals },
     ],
 }
