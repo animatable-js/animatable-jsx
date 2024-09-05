@@ -5,7 +5,7 @@
         <thead>
           <tr>
             <th>Version</th>
-            <th>v1.0.0-alpha1</th>
+            <th>v1.0.0-alpha2</th>
           </tr>
         </tbody>
     </table>
@@ -21,4 +21,42 @@ To install this package in your project, enter the following command.
 
 ```
 npm install animatable-js, animatable-jsx
+```
+
+## How to animate a value to the desired.
+This can be resolved using the provided `useAnimation` or `useAnimationController` hooks in this package.
+
+```jsx
+export function Root() {
+  // is given a current value, an animation instance.
+  const [value, animation] = useAnimation(1000);
+
+  useEffect(() => {
+      animation.animateTo(1);
+  }, []);
+
+  return <h1>Hello, World! {value}</h1>
+}
+```
+
+## About provided hooks.
+The hooks initializes an animation instance and provides an updated animation value over time. It also ensures proper cleanup of the animation when the component is unmounted.
+
+### useAnimation()
+A custom hook for handling animations.
+
+```jsx
+const [value, instance] =  useAnimation(duration,curve?, initialValue? = 0);
+```
+
+### useAnimationController()
+A custom hook for handling raw animations.
+
+```jsx
+const [value, instance] =  useAnimationController(
+  duration,
+  lowerValue? = 0,
+  upperValue? = 1,
+  initialValue? = lowerValue
+);
 ```
