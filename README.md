@@ -23,7 +23,7 @@ To install this package in your project, enter the following command.
 npm install animatable-js, animatable-jsx
 ```
 
-## How to animate a value to the desired.
+## How to animate a value to that you want.
 This can be resolved using the provided `useAnimation` or `useAnimationController` hooks in this package.
 
 ```jsx
