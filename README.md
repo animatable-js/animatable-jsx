@@ -39,7 +39,7 @@ export function Root() {
 }
 ```
 
-## About provided hooks.
+## Usage about custom hooks.
 The hooks initializes an animation instance and provides an updated animation value over time. It also ensures proper cleanup of the animation when the component is unmounted.
 
 ### useAnimation()
