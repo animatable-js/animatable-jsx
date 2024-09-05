@@ -46,7 +46,7 @@ The hooks initializes an animation instance and provides an updated animation va
 A custom hook for handling animations.
 
 ```jsx
-const [value, instance] =  useAnimation(duration,curve?, initialValue? = 0);
+const [value, instance] =  useAnimation(duration, curve?, initialValue? = 0);
 ```
 
 ### useAnimationController()
